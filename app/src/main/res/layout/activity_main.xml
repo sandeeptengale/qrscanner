@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btn_scan_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan QR"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txt_qr_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"
+        android:layout_below="@id/btn_scan_qr"
+        android:text="@string/hello_first_fragment"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_verify_nft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Verify"
+        android:visibility="gone"
+        android:layout_below="@id/txt_qr_result"/>
+
+    <Button
+        android:id="@+id/btn_create_nft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create NFT"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center" />
+</RelativeLayout>
